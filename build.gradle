@@ -1,0 +1,18 @@
+apply plugin: 'java'
+
+tasks.withType(JavaCompile) {
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    options.compilerArgs << '-parameters'
+    options.encoding = 'UTF-8'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.json:json:20141113'
+    testCompile 'junit:junit:4.12'
+}
