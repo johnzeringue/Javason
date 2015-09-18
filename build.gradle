@@ -1,4 +1,5 @@
 apply plugin: 'java'
+apply plugin: 'maven'
 
 tasks.withType(JavaCompile) {
     sourceCompatibility = 1.8

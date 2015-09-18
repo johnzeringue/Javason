@@ -30,6 +30,11 @@ code that will be checked by the compiler. Additionally, Javason is more
 readable than string literals and can be formatted by standard Java code
 formatters.
 
+Installation
+------------
+
+Javason is available as a Maven repository through [JitPack][].
+
 Limitations
 -----------
 
@@ -49,3 +54,4 @@ Credits
 Javason was inspired by [an article][] by Benji Weber.
 
 [an article]: http://benjiweber.co.uk/blog/2015/08/17/lambda-parameter-names-with-reflection/
+[JitPack]: https://jitpack.io/#com.johnzeringue/javason
